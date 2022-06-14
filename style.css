@@ -1,0 +1,130 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 45px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(245, 245, 248);
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+    
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;  
+    font-weight: bold; 
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(241, 210, 152);
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: orange;
+}
+
+footer{
+    text-align: center;
+    background: url(imagesaula1/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright{
+    color:rgb(245, 245, 248);  
+    font-size: 15px;
+}
+
+table {
+ margin-bottom: 20px;
+ margin-left: 70px;
+
+
+}
+
+thead{
+    font-weight: bold;
+    color: rgb(14, 10, 10);
+    background: rgb(238, 234, 227);
+   
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+
+}
+
+@media (max-width:414px) {
+
+    .body{
+      text-align: center;
+      width: 20px;
+      background: rgb(214, 196, 34);
+      display: inline-block;
+      padding: 20px;
+      font-size: 20px;
+      margin: 5px;
+      cursor: pointer;
+      color:rgb(214, 196, 34); 
+  
+    }  
+  
+  }
